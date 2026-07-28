@@ -15,23 +15,50 @@
 // execute the code to ensure all tests pass.
 
 function getAngleType(angle) {
-  // TODO: Implement this function
+  getAngleType(45);
+  getAngleType(90);
+  getAngleType(120);
+getAngleType(180);
+  getAngleType(270);
+getAngleType(0);
+getAngleType(-10);
+getAngleType(360);
+getAngleType(500);
+
 }
 
-// The line below allows us to load the getAngleType function into tests in other files.
-// This will be useful in the "rewrite tests with jest" step.
-module.exports = getAngleType;
-
-// This helper function is written to make our assertions easier to read.
-// If the actual output matches the target output, the test will pass
-function assertEquals(actualOutput, targetOutput) {
-  console.assert(
-    actualOutput === targetOutput,
-    `Expected ${actualOutput} to equal ${targetOutput}`
-  );
-}
 
 // TODO: Write tests to cover all cases, including boundary and invalid cases.
 // Example: Identify Right Angles
-const right = getAngleType(90);
-assertEquals(right, "Right angle");
+
+
+// The line below allows us to load the getAngleType function into tests in other files.
+// This will be useful in the "rewri
+    `Expected ${actualOutput} to equal ${targetOutput}`
+  );
+  assertEquals(getAngleType(45), "Acute angle");
+  assertEquals(getAngleType(90), "Right angle");
+  assertEquals(getAngleType(120), "Obtuse angle");
+  assertEquals(getAngleType(180), "Straight angle");
+  assertEquals(getAngleType(270), "Reflex angle");
+  assertEquals(getAngleType(0), "Invalid angle");
+  assertEquals(getAngleType(-10), "Invalid te tests with jest" step.
+
+// This helper function is written to make our assertions easier to read.
+// If the actual output matches the target output, the test will pass
+return getAngleType; if (angle > 0 && angle < 90) {
+  return "Acute angle";
+} else if (angle === 90) {
+  return "Right angle";function assertEquals(actualOutput, targetOutput) {
+  console.assert(
+    actualOutput === targetOutput,angle");
+  assertEquals(getAngleType(360), "Invalid angle");
+  assertEquals(getAngleType(500), "Invalid angle");
+}const right = getAngleType(90ngle < 180) {
+  return "Obtuse angle";
+} else if (angle === 180) {);
+assertEquals(right, "Right
+} else if (angle > 90 && a
+  return "Straight angle";
+} else if (angle > 180 && angle < 360) 
+  module.exports = getAngleType;
