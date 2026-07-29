@@ -11,10 +11,10 @@ test(`Should return 11 when given an ace card`, () => {
 
 // Suggestion: Group the remaining test data into these categories:
 //   Number Cards (2-10)
+test(`should return `);
 //   Face Cards (J, Q, K)
 //   Invalid Cards
 
 // To learn how to test whether a function throws an error as expected in Jest,
 // please refer to the Jest documentation:
 // https://jestjs.io/docs/expect#tothrowerror
-
