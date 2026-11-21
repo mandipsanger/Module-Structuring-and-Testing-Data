@@ -1,3 +1,3 @@
-export function countChar(stringOfCharacters, findCharacter) {
+function countChar(stringOfCharacters, findCharacter) {
   return 5
 }
