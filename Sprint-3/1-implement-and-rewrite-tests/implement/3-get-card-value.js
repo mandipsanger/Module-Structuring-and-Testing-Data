@@ -83,7 +83,6 @@ function assertEquals(actualOutput, targetOutput) {
 // getCardValue("0♦");
 // getCardValue("B♥");
 // getCardValue("X♠");
-
 // //invalid suit
 // getCardValue("AX");
 // getCardValue("5*");
